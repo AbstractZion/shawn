@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(212, 137, 119);
+}
+
+h1{
+    background-color: rgb(241, 205, 195);
+    color: rgba(105, 107, 105, 0.906);
+    text-align: center;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: cottagecore;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes cottagecore{
+    from{box-shadow :1px 1px 42px white;}
+    to{box-shadow :1px 1px 42px pink;}
+}
